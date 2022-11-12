@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+    background-color: #e5e5e5;
+}   
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 30px;
+  padding: 20px;
+}
+.first {
+  text-align: center;
+  justify-content: center;
+  flex: 1;
+  margin-top: 20px;
+}
+.second {
+  width: 600px;
+  height: 500px;
+  background-color: #fff;
+  flex: 1;
+  border-radius: 25px;
+  padding: 40px;
+  margin-right: 40px;
+}
+.dms{
+    display: flex;
+    align-content: center;
+    gap: 20px;
+    padding: 20px;
+    margin-left: 70px;
+    align-items: center;
+  }
+  #text {
+    margin-top: 40px;
+    font-size: 50px;
+  }
+  #text-two {
+    margin-top: 40px;
+    font-size: 20px;
+    color:  #000000;
+  }
+  .get-started{
+    padding:10px 14px ;
+    height: 50px;
+    border-radius: 0.9rem;
+    background-color: #053582;
+    color: #fff;
+  }
+  .get-started > a{
+    text-decoration: none;
+    color: #fff;
+  }
+  #welcome{
+    font-size: 40px;
+    margin-bottom: 10px;
+  }
+#enter{
+  font-size: 20px;
+  margin-bottom: 30px;  
+}
+
+.input{
+    margin-bottom:40px ;
+    width: 100%;
+    height: 50px;
+    border-radius: .8rem;
+}
+::placeholder{
+    padding: 20px;
+}
+.forget{
+    display: flex;
+    justify-content: end;
+}
+a{
+    text-decoration: none;
+    color: #055ae2;
+  }
+  .button{
+    padding:10px 14px ;
+    border-radius: 0.9rem;
+    background-color: #053582;
+    margin-top: 10px;
+    color: #fff;
+  }
+  .button-end{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    align-items: center;
+  }
+  .button:hover{
+    cursor: pointer;
+  }
